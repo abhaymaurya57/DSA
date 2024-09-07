@@ -28,4 +28,5 @@ int main(){
     n+=1;
     display(arr,n);
     return 0;
+    return 0;
 }

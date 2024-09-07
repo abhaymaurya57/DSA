@@ -24,4 +24,5 @@ int main(){
     size+=1;
     display(arr,size);
     return 0;
+    return 0;
 }
