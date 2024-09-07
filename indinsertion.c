@@ -7,9 +7,9 @@ void display(int arr[],int n){
 int indnsertion(int arr[],int n,int element,int index){
     for(int i=n-1;i>=index;i--){
         arr[i+1]=arr[i];
-        arr[index]=element;
-        return 1;
     }
+    arr[index]=element;
+    return 1;
 }
 
 int main(){
